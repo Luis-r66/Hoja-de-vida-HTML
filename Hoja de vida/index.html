@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de Vida - Luis Riascos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cv {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        /* Columna izquierda */
+        .left {
+            background: #1e293b;
+            color: #ffffff;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .left img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .left h2 {
+            margin-bottom: 5px;
+        }
+
+        .left p {
+            font-size: 14px;
+            color: #cbd5e1;
+        }
+
+        .left a {
+            display: block;
+            margin-top: 15px;
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Columna derecha */
+        .right {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h3 {
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #1e293b;
+        }
+
+        .section p, .section li {
+            font-size: 15px;
+            color: #334155;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .cv {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv">
+    <!-- Lado izquierdo -->
+    <div class="left">
+        <img src="foto.jpg" alt="Foto de perfil">
+        <h2>Luis Riascos</h2>
+        <p>Estudiante / Desarrollador en formación en: Corporación Universitaria Autonoma del Cauca - 2026</p>
+
+        <a href="https://www.instagram.com/ele.riascos._?igsh=dzZ2Z3cycDFyemdt" target="_blank">
+            📸 Instagram
+        </a>
+    </div>
+
+    <!-- Lado derecho -->
+    <div class="right">
+        <div class="section">
+            <h3>Perfil</h3>
+            <p>
+                Estudiante con interés en el desarrollo de software y tecnología,
+                con disposición para aprender, trabajar en equipo y mejorar
+                continuamente mis habilidades.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Educación</h3>
+            <p>
+                <strong>Bachiller / Estudiante</strong><br>
+                Liceo Alejandro de Humboldt — 2021
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML y CSS básico</li>
+                <li>JAVA y PYTHON básico</li>
+                <li>Inglés nivel medio</li>
+                <li>Trabajo en equipo</li>
+                <li>Responsabilidad y compromiso</li>
+                <li>Aprendizaje rápido</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Contacto</h3>
+            <p>3242288871</p>
+            <p>Email: luis.riascos.p@uniautonoma.edu.co</p>
+            <p>Popayán, Colombia</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
